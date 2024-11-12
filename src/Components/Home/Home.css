@@ -1,0 +1,34 @@
+h1{
+    color:blue
+}
+.menu{
+    display: flex;
+    position: fixed;
+    color:rgb(5, 230, 230);
+    top: 0px;
+    background-color: rgba(23, 113, 192, 0.513);
+    width: 100%;
+    backdrop-filter: blur(10px);
+    
+}
+.menu ul{
+display: flex;
+color: aqua;
+list-style-type: none;
+align-items: center;
+}
+.menu ul li{
+    color: rgb(3, 137, 253);
+    padding-left: 30px;
+}
+/* styles.css */
+.particle-ring-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* ensures it doesn’t interfere with mouse events */
+    overflow: hidden; /* prevents overflow if needed */
+  }
+  
